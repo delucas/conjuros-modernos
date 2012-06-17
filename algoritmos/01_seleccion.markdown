@@ -8,19 +8,41 @@ Uno de los algoritmos de ordenamiento más sencillos es el de selección. Aún a
 Dada una colección de elementos, se busca el más pequeño y se lo intercambia por aquel que esté en la primera posición (incluso si ya estuviera en dicho lugar). Luego, se procede de la misma manera, pero esta vez buscando el más pequeño del conjunto restante y colocándola en la siguiente posición.  
 Se continúa hasta evaluar la última posición de la colección. Una vez llegado este punto, el conjunto de elementos se encuentra ordenado.
 
-> **En un tweet:** 
+> **En un tweet**  
 > Buscar sucesivamente el elemento más pequeño del array y colocarlo al principio del conjunto analizado, excluyéndolo en la siguiente vuelta.
 
-> TODO: continuar
+Como podemos intuír, este algoritmo es muy simple y de fácil entendimiento. Aún así, es la base para muchos otros algoritmos de ordenamiento.  
+Veamos cómo funciona haciéndole un seguimiento...
 
 ## Seguimiento
 > TODO: escanear imágenes y redactar en consecuencia
 
 ## Análisis
 > TODO: continuar
+### Caso más favorable
+> TODO: continuar
+### Caso promedio
+> TODO: continuar
+### Caso más desfavorable
+> TODO: continuar
+### Resumen
+> TODO: continuar
 
 ## Algoritmo
-> TODO: continuar
+El algoritmo de ordenamiento por selección más sencillo es el siguiente:
+
+	public void ordenar(int[] arreglo) {
+	  int posicionMinimo;
+	  for(int i = 0; i < arreglo.length - 1; i++) {
+	    posicionMinimo = i;
+	    for(int j = i + 1; j < arreglo.length; j++) {
+	      if(arreglo[j] < arreglo[posicionMinimo]) {
+	        posicionMinimo = j;
+	      }
+	    }
+	    intercambiar(i, posicionMinimo);
+	  }
+	}
 
 ## Mejoras
 > TODO: continuar
