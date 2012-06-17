@@ -29,7 +29,7 @@ Es importante destacar que los algoritmos de ordenamiento no deben efectuar camb
 
 ---
 
-Podríamos resumir la escencia del comportamiento de los algoritmos de ordenamiento de esta manera:
+Podríamos resumir la esencia del comportamiento de los algoritmos de ordenamiento de esta manera:
 
 * La colección de entrada es la misma que la de salida, aunque con los elementos dispuestos de cierto modo.
 * La nueva organización de los elementos responde a una relación de orden bien definida. Generalmente, de menor a mayor.
