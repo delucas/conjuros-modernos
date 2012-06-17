@@ -48,7 +48,7 @@ Entre los co-autores mencionados en la obra, se encontrarán todos aquellos que 
 ## <a name="lectura"/>Lectura
 Si no te sentís confiado para hacer comentarios, proponer temas o mejoras... ¡no hay problema! Este libro es para leerse: sentite libre de hacerlo.
 
-Y si te gusta, recomendalo ㋡
+Y si te gusta, [recomendalo](https://twitter.com/intent/tweet?text=%22Conjuros+modernos%22%2C+un+libro+de+programaci%C3%B3n+abierto+y+colaborativo+para+estudiantes+%2Fcc+%40luke_ar) ㋡
 
 ## <a name="mejoras"/>Mejoras técnicas
 Si sabés de herramientas que puedan compilar este libro en mejores formatos, o tenés sugerencias de índole tecnológica, serán más que bienvenidas
