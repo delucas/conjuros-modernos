@@ -12,11 +12,16 @@ Ahora bien, ¿a qué nos referimos cuando hablamos de una relación de órden? E
 Con una serie de ejemplos seguramente se comprenderá mejor:
 
 * Si nos referimos a números (elementos comparables entre sí), podemos decir que el 23 es más pequeño que el 42. La relación de órden es rigurosa y definida matemáticamente.
-> 23 < 42 → [ 23 , 42 ]
+
+	23 < 42 → [ 23 , 42 ]
+
 * Si en cambio comparamos personas (no es bueno andarse comparando, pero síganme el juego) podemos decir que mi padre es más grande que yo. Esta vez, la relación de órden se define por las edades individuales.
-> edad(yo) < edad(mi padre) → [ yo , mi padre ]
+
+	edad(yo) < edad(mi padre) → [ yo , mi padre ]
+
 * Podríamos tomar el ejemplo anterior y comparar por otro atributo, como ser las alturas. En este caso, el órden relativo se revierte: yo soy más alto que mi padre.
-> altura(yo) > altura(mi padre) → [ mi padre , yo ]
+
+	altura(yo) > altura(mi padre) → [ mi padre , yo ]
 
 Por supuesto, *el órden relativo puede ser tanto de menor a mayor, como de mayor a menor*. Los ejemplos se han brindado del primer modo, pero podrían reformularse sin dificultar según el segundo.
 
