@@ -4,7 +4,7 @@
 
 Los algoritmos de ordenamiento son una clase definida de procedimientos que tienen como objetivo reacomodar los objetos dentro de una colección dada para que respeten cierta relación de órden determinada entre ellos.
 
-> **En un tweet:** 
+> **En un tweet**  
 > Son algoritmos que permiten disponer los elementos de una colección bajo cierto orden determinado, relativo entre ellos 
 
 Ahora bien, ¿a qué nos referimos cuando hablamos de una relación de órden? Es muy sencillo, aunque el concepto se torna bastante riguroso: una **relación de órden** es tal que *dados dos elementos comparables entre sí, existe una forma bien definida de conocer cuál de ellos antecede al otro, según algún aspecto a evaluar que les sea inherente*.
@@ -45,8 +45,8 @@ Para responder a esa pregunta debemos comprender que los algoritmos de ordenamie
 
 ## Relevancia
 
-El área de los algoritmos de ordenamiento es una de las más exploradas e interesantes. Podríamos pensar *'¿para qué queremos más algoritmos de ordenamientos, si con un par alcanza?'*.  
-Pues no alcanza, y es bueno que así sea: La experimentación constante y manipulación de los algoritmos existentes, la búsqueda desesperada por un algoritmo más eficiente, que reduzca los tiempos o esfuerzos para ordenar una colección es lo que llevó al descubrimiento de técnicas de optimización y fragmentos de código que trascendieron esta familia de algoritmos para contagiar a muchos otros.
+El área de los algoritmos de ordenamiento es una de las más exploradas e interesantes. Podríamos pensar *'¿para qué queremos más algoritmos de ordenamiento, si con un par alcanza?'*.  
+Pues no es suficiente, y es bueno que así sea: La experimentación constante y manipulación de los algoritmos existentes, la búsqueda desesperada por un algoritmo más eficiente, que reduzca los tiempos o esfuerzos para ordenar una colección es lo que llevó al descubrimiento de técnicas de optimización y fragmentos de código que trascendieron esta familia de algoritmos para contagiar a muchos otros.
 
 ## Estudio
 
