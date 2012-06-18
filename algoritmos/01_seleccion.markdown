@@ -18,13 +18,25 @@ Veamos cómo funciona haciéndole un seguimiento...
 > TODO: escanear imágenes y redactar en consecuencia
 
 ## Análisis
-> TODO: continuar
-### Caso más favorable
-> TODO: continuar
-### Caso promedio
-> TODO: continuar
-### Caso más desfavorable
-> TODO: continuar
+Lo primero que podríamos destacar al momento de analizar el comportamiento de este algoritmo, es el hecho de que cada elemento intercambiado dentro de la colección, pasa a ocupar su posición definitiva.
+
+Si vemos el seguimiento anterior, notaremos que este suceso trae una inmediata consecuencia: el arreglo parecería dividirse en dos partes mientras dura el proceso de ordenamiento. La primera, totalmente ordenada y con cada elemento en su posición definitiva, y la segunda probablemente desordenada, y en vías de revertir esa condición.  
+Podemos resumir esa idea diciendo que **por cada búsqueda** del elemento más pequeño, **el conjunto de elementos a ordenar se reduce en una unidad**. Por lo tanto, luego de n búsquedas, un conjunto de n elementos estará ordenado en su totalidad.
+
+### Cantidad de búsquedas
+Podemos notar que la primera búsqueda se hará entre n elementos, la siguiente entre n-1 elementos, la siguiente entre n-2 y así sucesivamente hasta la última búsqueda, que se realizará (virtualmente) entre 1 sólo elemento, el de la última posición.  
+Si cada vez que se busca un elemento el conjunto de datos es menor, y sabiendo que debemos hacerlo por cada elemento, podemos calcular que evaluaremos n * ( n / 2 ) elementos. Siguiendo los lineamientos del cálculo de complejidad, encontramos que:
+> La cantidad de búsquedas es proporcional a O(n<sup>2</sup>).
+
+### Cantidad de intercambios
+Cuando analizamos la cantidad de intercambios establecidos por el algoritmo, cualquiera sea la longitud del arreglo, notamos que intercambia cada elemento exactamente una vez. Por ello, y nuevamente con la notación anterior, decimos que:
+> La cantidad de intercambios es proporcional a O(n).
+
+#### TODO:
+Caso más favorable
+Caso promedio
+Caso más desfavorable
+
 ### Resumen
 > TODO: continuar
 
