@@ -32,10 +32,36 @@ Si cada vez que se busca un elemento el conjunto de datos es menor, y sabiendo q
 Cuando analizamos la cantidad de intercambios establecidos por el algoritmo, cualquiera sea la longitud del arreglo, notamos que intercambia cada elemento exactamente una vez. Por ello, y nuevamente con la notación anterior, decimos que:
 > La cantidad de intercambios es proporcional a O(n).
 
-#### TODO:
-Caso más favorable
-Caso promedio
-Caso más desfavorable
+### Memoria utilizada
+De más está decir que como todos los algoritmos, utiliza como base la memoria ocupada por la colección. Sin embargo, este algoritmo tiene la particularidad de que no utiliza memoria adicional. Decimos que:
+> La cantidad de memoria adicional es proporcional a O(1)
+
+### Análisis de casos típicos
+
+#### Caso más favorable
+En el caso más favorable, cuando los elementos están ordenados, tenemos que:
+
+* Cantidad de búsquedas: O(n<sup>2</sup>)
+* Cantidad de intercambios: O(n)
+* Cantidad de memoria adicional: O(1)
+
+#### Caso promedio
+En el caso promedio, cuando los elementos están distribuidos en forma aleatoria, tenemos que:
+
+* Cantidad de búsquedas: O(n<sup>2</sup>)
+* Cantidad de intercambios: O(n)
+* Cantidad de memoria adicional: O(1)
+
+#### Caso más desfavorable
+En el caso más favorable, cuando los elementos en órden inverso, tenemos que:
+
+* Cantidad de búsquedas: O(n<sup>2</sup>)
+* Cantidad de intercambios: O(n)
+* Cantidad de memoria adicional: O(1)
+
+---
+
+Como podemos notar, el algoritmo en su estado puro es absolutamente insensible al conjunto ingresado: Independientemente de cómo se presente la colección se comporta del mismo modo.
 
 ### Resumen
 > TODO: continuar
