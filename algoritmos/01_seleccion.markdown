@@ -18,7 +18,7 @@ Veamos cómo funciona haciéndole un seguimiento...
 > TODO: escanear imágenes y redactar en consecuencia
 
 ## Análisis
-Lo primero que podríamos destacar al momento de analizar el comportamiento de este algoritmo, es el hecho de que cada elemento intercambiado dentro de la colección, pasa a ocupar su posición definitiva.
+Lo primero que podríamos destacar al momento de analizar el comportamiento de este algoritmo es el hecho de que cada elemento intercambiado dentro de la colección pasa a ocupar su posición definitiva y nunca la abandona.
 
 Si vemos el seguimiento anterior, notaremos que este suceso trae una inmediata consecuencia: el arreglo parecería dividirse en dos partes mientras dura el proceso de ordenamiento. La primera, totalmente ordenada y con cada elemento en su posición definitiva, y la segunda probablemente desordenada, y en vías de revertir esa condición.  
 Podemos resumir esa idea diciendo que **por cada búsqueda** del elemento más pequeño, **el conjunto de elementos a ordenar se reduce en una unidad**. Por lo tanto, luego de n búsquedas, un conjunto de n elementos estará ordenado en su totalidad.
@@ -78,7 +78,7 @@ El algoritmo de ordenamiento por selección más sencillo es el siguiente:
 	        posicionMinimo = j;
 	      }
 	    }
-	    intercambiar(i, posicionMinimo);
+	    intercambiar(arreglo, i, posicionMinimo);
 	  }
 	}
 
