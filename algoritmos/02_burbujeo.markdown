@@ -47,7 +47,7 @@ En el caso promedio, cuando los elementos están distribuidos en forma aleatoria
 En el caso más favorable, cuando los elementos en órden inverso, tenemos que:
 
 * Cantidad de búsquedas: O(n<sup>2</sup>)
-* Cantidad de intercambios: O(<sup>2</sup>)
+* Cantidad de intercambios: O(n<sup>2</sup>)
 * Cantidad de memoria adicional: O(1)
 
 ---
@@ -66,7 +66,7 @@ El algoritmo de ordenamiento por burbujeo más sencillo es el siguiente:
 	    huboIntercambios = false;
 	    for (int i = 0; i < arreglo.length; i++) {
 	      if (arreglo[i] > arreglo[i + 1]) {                          
-	        intercambiar(i , i + 1);
+	        intercambiar(arreglo, i , i + 1);
 	        huboIntercambios = true;
 	      }
 	    }                
