@@ -64,7 +64,8 @@ En el caso más favorable, cuando los elementos en órden inverso, tenemos que:
 Como podemos notar, el algoritmo en su estado puro es absolutamente insensible al conjunto ingresado: Independientemente de cómo se presente la colección se comporta del mismo modo.
 
 ### Resumen
-> TODO: continuar
+En suma, el algoritmo de ordenamiento por selección es simple, y tiene un comportamiento que no presenta sorpresas: *su tiempo de ejecución sólo depende de la cantidad de elementos*, la cantidad de *intercambios siempre permanecerá constante, así como la cantidad de búsquedas*.  
+Además la cantidad de movimientos que afectan a cada elemento es la mínima (o casi): *cada uno cambia su posición una sóla vez*, para ocupar su posición definitiva.
 
 ## Algoritmo
 El algoritmo de ordenamiento por selección más sencillo es el siguiente:
@@ -83,7 +84,7 @@ El algoritmo de ordenamiento por selección más sencillo es el siguiente:
 	}
 
 ## Mejoras
-> TODO: continuar
+> TODO: continuar con cycle-sort, o min-máx
 
 ## Bibliografía recomendada
 
