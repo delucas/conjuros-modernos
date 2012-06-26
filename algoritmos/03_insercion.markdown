@@ -79,7 +79,7 @@ El algoritmo de ordenamiento por inserción más sencillo es el siguiente:
 	}
 
 ## Mejoras
-> TODO: continuar
+> TODO: continuar con Shell sort
 
 ## Bibliografía recomendada
 
